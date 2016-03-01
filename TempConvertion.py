@@ -9,5 +9,5 @@ print " type in a temperature in fahrenheit:",
 fahrenheit = float(raw_input())
 celsius =(fahrenheit - 32)*5.0 /9
 print "that is",
-print celsius,
+print ("%.2f" % celsius),
 print " degrees celsius"
